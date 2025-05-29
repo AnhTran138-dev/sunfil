@@ -1,0 +1,86 @@
+{
+  "HomePage": {
+    "input_code": "Nhập mã",
+    "newbie": "NEWBIE",
+    "newbie_desc": "giảm ngay 10% cho lần đầu mua hàng.",
+    "download_app": "Tải ứng dụng"
+  },
+  "SearchInput": {
+    "placeholder": "Tìm kiếm sản phẩm"
+  },
+  "Button": {
+    "shopping_cart": "Giỏ hàng",
+    "account": "Tài khoản",
+    "list_products": "Danh sách sản phẩm",
+    "about_us": "Về chúng tôi",
+    "post": "Bài viết",
+    "catalog": "Danh mục",
+    "contact_us": "Liên hệ",
+    "support": "Hỗ trợ 24/7",
+    "subTitle_support": "Với hóa đơn từ 1 triệu",
+    "free_shipping": "Miễn phí vận chuyển",
+    "subTitle_free_shipping": "Đội ngũ CSKH tận tình sẵn sàng lắng nghe và phục vụ tận tâm",
+    "fast_delivery": "Giao hàng nhanh trong 2 giờ",
+    "subTitle_fast_delivery": "Trong vòng bán kính 10km nội thành TP HCM",
+    "return_policy": "Chính sách hoàn trả 30 ngày",
+    "subTitle_return_policy": "Hoàn tiền 100% nếu phát sinh lỗi từ NSX hoặc đơn vị vận chuyển",
+    "see_now": "Xem ngay"
+  },
+  "Banner": {
+    "new_hot": "Mới và hot!",
+    "download_app": "Tải ứng dụng và nhận quà",
+    "earn_points": "Kiếm điểm ngay trên",
+    "sunfil": "SUNFIL1",
+    "app": "ứng dụng",
+    "points": "điểm"
+  },
+  "ProductCard": {
+    "buy_now": "Mua ngay"
+  },
+  "JumbotronSection": {
+    "title": "Xem hệ thống 88 cửa hàng trên toàn quốc"
+  },
+  "SortProducts": {
+    "title": "Danh sách sản phẩm",
+    "sort_by": "Sắp xếp theo",
+    "relevance": "Liên quan",
+    "best_selling": "Bán chạy",
+    "newest": "Mới nhất",
+    "featured": "Nổi bật",
+    "high": "Cao",
+    "low": "Thấp",
+    "price": "Giá cả"
+  },
+  "FilterProducts": {
+    "title": "Bộ lọc",
+    "category": "Danh mục sản phẩm",
+    "price_range": "Khoảng giá",
+    "brand": "Thương hiệu",
+    "manufacture_year": "Năm sản xuất",
+    "origin": "Xuất xứ"
+  },
+  "Footer": {
+    "company_name": "CÔNG TY CỔ PHẦN SẢN XUẤT THƯƠNG MẠI Ô TÔ VIỆT HƯNG",
+    "tax_code": "Mã số thuế",
+    "address": "Địa chỉ",
+    "phone": "Số điện thoại",
+    "opening_hours": "Giờ mở cửa",
+    "sitemap": "Sơ đồ trang",
+    "about_us": "Giới thiệu",
+    "articles": "Bài viết",
+    "cart": "Giỏ hàng",
+    "contact_us": "Liên hệ",
+    "legal": "Pháp lý",
+    "privacy_policy": "Chính sách bảo mật",
+    "cookies_policy": "Chính sách cookie",
+    "delivery_policy": "Chính sách giao hàng",
+    "faqs": "Câu hỏi thường gặp",
+    "download_app": "Tải ứng dụng",
+    "get_on_app_store": "Tải trên App Store",
+    "get_on_google_play": "Tải trên Google Play"
+  },
+  "CategoriesMenu": {
+    "title": "Sản phẩm bán chạy",
+    "see_all": "Xem tất cả"
+  }
+}

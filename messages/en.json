@@ -1,0 +1,82 @@
+{
+  "HomePage": {
+    "input_code": "Enter code",
+    "newbie": "NEWBIE",
+    "newbie_desc": "get 10% off for the first purchase.",
+    "download_app": "Download the app"
+  },
+  "SearchInput": {
+    "placeholder": "Search products"
+  },
+  "Button": {
+    "shopping_cart": "Shopping Cart",
+    "account": "Account",
+    "list_products": "List Products",
+    "about_us": "About Us",
+    "catalog": "Catalog",
+    "post": "Post",
+    "contact_us": "Contact Us",
+    "support": "Support 24/7",
+    "subTitle_support": "With bill from 1 million",
+    "free_shipping": "Free Shipping",
+    "subTitle_free_shipping": "Dedicated customer service team ready to listen and serve wholeheartedly",
+    "fast_delivery": "Fast delivery 2 hours",
+    "subTitle_fast_delivery": "Within a 10km radius of Ho Chi Minh City",
+    "return_policy": "30 days return",
+    "subTitle_return_policy": "100% refund if there is an error from the manufacturer or shipping unit",
+    "see_now": "See Now"
+  },
+  "Banner": {
+    "new_hot": "New and hot!",
+    "download_app": "Download & get gifts",
+    "earn_points": "Earn points right on the",
+    "sunfil": "SUNFIL1",
+    "app": "app",
+    "points": "points"
+  },
+  "ProductCard": {
+    "buy_now": "Buy Now"
+  },
+  "JumbotronSection": {
+    "title": "View the system of 88 stores nationwide"
+  },
+  "SortProducts": {
+    "title": "Product List",
+    "sort_by": "Sort by",
+    "relevance": "Relevance",
+    "best_selling": "Best Selling",
+    "newest": "Newest",
+    "featured": "Featured",
+    "high": "High",
+    "low": "Low",
+    "price": "Price"
+  },
+  "FilterProducts": {
+    "filter": "Filter",
+    "category": "Category",
+    "price_range": "Price Range",
+    "brand": "Brand",
+    "manufacture_year": "Manufacture Year",
+    "origin": "Origin"
+  },
+  "Footer": {
+    "company_name": "VIET HUNG AUTO PRODUCTION TRADING JOINT STOCK COMPANY",
+    "tax_code": "Tax code",
+    "address": "Address",
+    "phone": "Phone number",
+    "opening_hours": "Opening hours",
+    "sitemap": "Sitemap",
+    "about_us": "About Us",
+    "articles": "Articles",
+    "cart": "Cart",
+    "contact_us": "Contact Us",
+    "legal": "Legal",
+    "privacy_policy": "Privacy Policy",
+    "cookies_policy": "Cookies Policy",
+    "delivery_policy": "Delivery Policy",
+    "faqs": "FAQs",
+    "download_app": "Download the app",
+    "get_on_app_store": "Get on the App Store",
+    "get_on_google_play": "Get on Google Play"
+  }
+}
