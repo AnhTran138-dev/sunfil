@@ -10,8 +10,12 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import MobileMenuSheet from "./mobile-menu-sheet";
+import CardProduct from "@/components/global/organisms/card-product";
+import ProductJson from "@/lib/seeds/product.json";
 
 const UtilityHeader = () => {
+  const [isHovered, setIsHovered] = React.useState(false);
+  const product = ProductJson.value.items[0];
   const t = useTranslations("SearchInput");
   const btn = useTranslations("Button");
   const isMobile = useIsMobile();
@@ -80,15 +84,36 @@ const UtilityHeader = () => {
       <HStack>
         <LocaleSwitcher />
 
-        <IconButton
-          variant="ghost"
-          iconLeft={
-            <Image src="icons/cart.svg" alt="Cart" width={24} height={24} />
-          }
-          className="text-gray-600"
-        >
-          <span className="text-sm">{btn("shopping_cart")}</span>
-        </IconButton>
+        <div className="relative" onMouseEnter={() => setIsHovered(true)}>
+          <IconButton
+            variant="ghost"
+            iconLeft={
+              <Image src="icons/cart.svg" alt="Cart" width={24} height={24} />
+            }
+            className="text-gray-600"
+          >
+            <span className="text-sm">{btn("shopping_cart")}</span>
+          </IconButton>
+
+          <div className="absolute top-12 right-0 z-40 ">
+            {isHovered && (
+              <div
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
+              >
+                <CardProduct
+                  id={product.id}
+                  title={product.name}
+                  image={product.image}
+                  price={product.price}
+                  category={product.category}
+                  isHotDeal={product.isHotDeal}
+                  discountPercentage={product.discountPercentage}
+                />
+              </div>
+            )}
+          </div>
+        </div>
 
         <IconButton
           variant="ghost"

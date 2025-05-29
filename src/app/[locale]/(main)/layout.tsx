@@ -1,3 +1,4 @@
+import Footer from "@/components/local/layout/footer";
 import { Header } from "@/components/local/layout/header";
 
 export default function MainLayout({
@@ -12,7 +13,7 @@ export default function MainLayout({
         {/* <DynamicBreadcrumb /> */}
       </section>
       <main className="min-h-screen">{children}</main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

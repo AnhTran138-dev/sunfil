@@ -2,13 +2,12 @@ import { getQueryClient } from "@/lib/get-query-client";
 import { QUERYKEYS } from "@/lib/query-key";
 
 import { dehydrate, HydrationBoundary } from "@tanstack/react-query";
-// import NavMenu from "./nav-menu";
-// import UtilityHeader from "./utility-header";
 import { VStack } from "@/components/global/atoms/vstack";
 import { TopBanner } from "./top-banner";
 import { getProducts } from "@/features/product/action";
 import { getCategories } from "@/features/category/action";
 import UtilityHeader from "./utility-header";
+import NavMenu from "./nav-menu";
 
 export async function Header() {
   const queryClient = getQueryClient();
@@ -23,9 +22,6 @@ export async function Header() {
     queryFn: getProducts,
   });
 
-  console.log("Fetched categories:", categoriesData);
-  console.log("Fetched products:", productsData);
-
   return (
     <HydrationBoundary state={dehydrate(queryClient)}>
       <header>
@@ -34,10 +30,10 @@ export async function Header() {
         {/* Header */}
         <VStack className=" py-4 px-10 shadow-sm">
           <UtilityHeader />
-          {/* <NavMenu
+          <NavMenu
             categories={categoriesData.value.items}
             products={productsData.value.items}
-          /> */}
+          />
         </VStack>
       </header>
     </HydrationBoundary>
