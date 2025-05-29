@@ -4,7 +4,6 @@ import React from "react";
 import LocaleSwitcherSelect from "../atoms/locale-switcher-select";
 import { useLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
-import Image from "next/image";
 import { HStack } from "../atoms/hstack";
 
 const LocaleSwitcher = () => {

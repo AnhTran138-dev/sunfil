@@ -13,6 +13,8 @@ export default async function Home() {
     queryFn: getProducts,
   });
 
+  console.log("Fetched products:", data);
+
   return (
     <HydrationBoundary state={dehydrate(queryClient)}>
       {/* <HomePage products={data.value.items} /> */}

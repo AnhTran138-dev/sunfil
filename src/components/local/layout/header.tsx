@@ -23,6 +23,9 @@ export async function Header() {
     queryFn: getProducts,
   });
 
+  console.log("Fetched categories:", categoriesData);
+  console.log("Fetched products:", productsData);
+
   return (
     <HydrationBoundary state={dehydrate(queryClient)}>
       <header>
