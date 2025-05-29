@@ -1,0 +1,119 @@
+{
+  "isSuccess": true,
+  "message": "Product data retrieved successfully",
+  "value": {
+    "pageNumber": 1,
+    "pageSize": 2,
+    "totalItems": 2,
+    "hasNext": true,
+    "items": [
+      {
+        "id": 1,
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/366/403/products/01fdbc98b5c767e2fbc1f7804643a209-d1289da8-bd17-4f23-9c2e-27f6b013ce16.jpg?v=1679041821410",
+        "name": "Loc gio dong co 17801-0Y050",
+        "category": "Chevrolet Colorado, Toyota Hilux",
+        "price": 1000000,
+        "discountPercentage": 10,
+        "isHotDeal": true
+      },
+      {
+        "id": 2,
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/366/403/products/01fdbc98b5c767e2fbc1f7804643a209-d1289da8-bd17-4f23-9c2e-27f6b013ce16.jpg?v=1679041821410",
+        "name": "Loc gio dong co 17801-0Y050",
+        "category": "Chevrolet Colorado, Toyota Hilux",
+        "price": 1000000,
+        "discountPercentage": 20,
+        "isHotDeal": true
+      },
+      {
+        "id": 3,
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/366/403/products/01fdbc98b5c767e2fbc1f7804643a209-d1289da8-bd17-4f23-9c2e-27f6b013ce16.jpg?v=1679041821410",
+        "name": "Loc gio dong co 17801-0Y050",
+        "category": "Chevrolet Colorado, Toyota Hilux",
+        "price": 1000000,
+        "discountPercentage": 13,
+        "isHotDeal": true
+      },
+      {
+        "id": 4,
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/366/403/products/01fdbc98b5c767e2fbc1f7804643a209-d1289da8-bd17-4f23-9c2e-27f6b013ce16.jpg?v=1679041821410",
+        "name": "Loc gio dong co 17801-0Y050",
+        "category": "Chevrolet Colorado, Toyota Hilux",
+        "price": 1000000,
+        "discountPercentage": 12,
+        "isHotDeal": true
+      },
+      {
+        "id": 5,
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/366/403/products/01fdbc98b5c767e2fbc1f7804643a209-d1289da8-bd17-4f23-9c2e-27f6b013ce16.jpg?v=1679041821410",
+        "name": "Loc gio dong co 17801-0Y050",
+        "category": "Chevrolet Colorado, Toyota Hilux",
+        "price": 3000000,
+        "discountPercentage": 10,
+        "isHotDeal": true
+      },
+      {
+        "id": 6,
+        "name": "Loc gio dong co 17801-0Y050",
+        "category": "Chevrolet Colorado, Toyota Hilux",
+        "price": 15000000,
+        "discountPercentage": 10,
+        "isHotDeal": true
+      },
+      {
+        "id": 7,
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/366/403/products/01fdbc98b5c767e2fbc1f7804643a209-d1289da8-bd17-4f23-9c2e-27f6b013ce16.jpg?v=1679041821410",
+        "name": "Loc gio dong co 17801-0Y050",
+        "category": "Chevrolet Colorado, Toyota Hilux",
+        "price": 2000000,
+        "discountPercentage": 10,
+        "isHotDeal": true
+      },
+      {
+        "id": 8,
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/366/403/products/01fdbc98b5c767e2fbc1f7804643a209-d1289da8-bd17-4f23-9c2e-27f6b013ce16.jpg?v=1679041821410",
+        "name": "Loc gio dong co 17801-0Y050",
+        "category": "Chevrolet Colorado, Toyota Hilux",
+        "price": 8000000,
+        "discountPercentage": 10,
+        "isHotDeal": true
+      },
+      {
+        "id": 9,
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/366/403/products/01fdbc98b5c767e2fbc1f7804643a209-d1289da8-bd17-4f23-9c2e-27f6b013ce16.jpg?v=1679041821410",
+        "name": "Loc gio dong co 17801-0Y050",
+        "category": "Chevrolet Colorado, Toyota Hilux",
+        "price": 9000000,
+        "discountPercentage": 20,
+        "isHotDeal": true
+      },
+      {
+        "id": 10,
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/366/403/products/01fdbc98b5c767e2fbc1f7804643a209-d1289da8-bd17-4f23-9c2e-27f6b013ce16.jpg?v=1679041821410",
+        "name": "Loc gio dong co 17801-0Y050",
+        "category": "Chevrolet Colorado, Toyota Hilux",
+        "price": 6000000,
+        "discountPercentage": 30,
+        "isHotDeal": true
+      },
+      {
+        "id": 11,
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/366/403/products/01fdbc98b5c767e2fbc1f7804643a209-d1289da8-bd17-4f23-9c2e-27f6b013ce16.jpg?v=1679041821410",
+        "name": "Loc gio dong co 17801-0Y050",
+        "category": "Chevrolet Colorado, Toyota Hilux",
+        "price": 9000000,
+        "discountPercentage": 8,
+        "isHotDeal": true
+      },
+      {
+        "id": 12,
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/366/403/products/01fdbc98b5c767e2fbc1f7804643a209-d1289da8-bd17-4f23-9c2e-27f6b013ce16.jpg?v=1679041821410",
+        "name": "Loc gio dong co 17801-0Y050",
+        "category": "Chevrolet Colorado, Toyota Hilux",
+        "price": 1000000,
+        "discountPercentage": 10,
+        "isHotDeal": true
+      }
+    ]
+  }
+}
