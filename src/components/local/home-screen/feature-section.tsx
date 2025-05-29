@@ -1,5 +1,4 @@
 import CardFeature from "@/components/global/organisms/card-feature";
-import { Box, Headphones, Truck, Wallet2 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";

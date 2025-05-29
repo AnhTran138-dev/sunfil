@@ -37,7 +37,7 @@ interface NavMenuProps {
   products?: ProductsResponse[];
 }
 
-const NavMenu = ({ categories, products }: NavMenuProps) => {
+const NavMenu = ({}: NavMenuProps) => {
   const isMobile = useIsMobile();
   const t = useTranslations("Button");
 

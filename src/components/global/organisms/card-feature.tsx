@@ -1,4 +1,3 @@
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import React from "react";
 import { VStack } from "../atoms/vstack";
 import { Typography } from "../atoms/typography";
