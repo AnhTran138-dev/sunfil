@@ -30,6 +30,18 @@
         "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/366/403/products/01fdbc98b5c767e2fbc1f7804643a209-d1289da8-bd17-4f23-9c2e-27f6b013ce16.jpg?v=1679041821410",
         "name": "Bộ lọc Trong Cabin",
         "type": "cabin"
+      },
+      {
+        "id": 5,
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/366/403/products/01fdbc98b5c767e2fbc1f7804643a209-d1289da8-bd17-4f23-9c2e-27f6b013ce16.jpg?v=1679041821410",
+        "name": "Bộ lọc gió",
+        "type": "air"
+      },
+      {
+        "id": 6,
+        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/366/403/products/01fdbc98b5c767e2fbc1f7804643a209-d1289da8-bd17-4f23-9c2e-27f6b013ce16.jpg?v=1679041821410",
+        "name": "Bộ lọc dầu hộp số",
+        "type": "transmission"
       }
     ]
   }

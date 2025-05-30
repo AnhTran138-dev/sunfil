@@ -1,3 +1,4 @@
+import { DynamicBreadcrumb } from "@/components/global/organisms/dynamic-breadcrumb";
 import Footer from "@/components/local/layout/footer";
 import { Header } from "@/components/local/layout/header";
 
@@ -10,7 +11,7 @@ export default function MainLayout({
     <div>
       <Header />
       <section className="container mx-auto px-10 pt-4">
-        {/* <DynamicBreadcrumb /> */}
+        <DynamicBreadcrumb />
       </section>
       <main className="min-h-screen">{children}</main>
       <Footer />

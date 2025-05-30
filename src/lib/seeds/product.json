@@ -14,7 +14,8 @@
         "category": "Chevrolet Colorado, Toyota Hilux",
         "price": 1000000,
         "discountPercentage": 10,
-        "isHotDeal": true
+        "isHotDeal": true,
+        "categoryType": "oil"
       },
       {
         "id": 2,
@@ -23,7 +24,8 @@
         "category": "Chevrolet Colorado, Toyota Hilux",
         "price": 1000000,
         "discountPercentage": 20,
-        "isHotDeal": true
+        "isHotDeal": true,
+        "categoryType": "air"
       },
       {
         "id": 3,
@@ -32,7 +34,8 @@
         "category": "Chevrolet Colorado, Toyota Hilux",
         "price": 1000000,
         "discountPercentage": 13,
-        "isHotDeal": true
+        "isHotDeal": true,
+        "categoryType": "fuel"
       },
       {
         "id": 4,
@@ -41,7 +44,8 @@
         "category": "Chevrolet Colorado, Toyota Hilux",
         "price": 1000000,
         "discountPercentage": 12,
-        "isHotDeal": true
+        "isHotDeal": true,
+        "categoryType": "cabin"
       },
       {
         "id": 5,
@@ -50,7 +54,8 @@
         "category": "Chevrolet Colorado, Toyota Hilux",
         "price": 3000000,
         "discountPercentage": 10,
-        "isHotDeal": true
+        "isHotDeal": true,
+        "categoryType": "oil"
       },
       {
         "id": 6,
@@ -58,7 +63,8 @@
         "category": "Chevrolet Colorado, Toyota Hilux",
         "price": 15000000,
         "discountPercentage": 10,
-        "isHotDeal": true
+        "isHotDeal": true,
+        "categoryType": "oil"
       },
       {
         "id": 7,
@@ -67,7 +73,8 @@
         "category": "Chevrolet Colorado, Toyota Hilux",
         "price": 2000000,
         "discountPercentage": 10,
-        "isHotDeal": true
+        "isHotDeal": true,
+        "categoryType": "oil"
       },
       {
         "id": 8,
@@ -76,7 +83,8 @@
         "category": "Chevrolet Colorado, Toyota Hilux",
         "price": 8000000,
         "discountPercentage": 10,
-        "isHotDeal": true
+        "isHotDeal": true,
+        "categoryType": "air"
       },
       {
         "id": 9,
@@ -85,7 +93,8 @@
         "category": "Chevrolet Colorado, Toyota Hilux",
         "price": 9000000,
         "discountPercentage": 20,
-        "isHotDeal": true
+        "isHotDeal": true,
+        "categoryType": "fuel"
       },
       {
         "id": 10,
@@ -94,7 +103,8 @@
         "category": "Chevrolet Colorado, Toyota Hilux",
         "price": 6000000,
         "discountPercentage": 30,
-        "isHotDeal": true
+        "isHotDeal": true,
+        "categoryType": "oil"
       },
       {
         "id": 11,
@@ -103,7 +113,8 @@
         "category": "Chevrolet Colorado, Toyota Hilux",
         "price": 9000000,
         "discountPercentage": 8,
-        "isHotDeal": true
+        "isHotDeal": true,
+        "categoryType": "cabin"
       },
       {
         "id": 12,
@@ -112,7 +123,8 @@
         "category": "Chevrolet Colorado, Toyota Hilux",
         "price": 1000000,
         "discountPercentage": 10,
-        "isHotDeal": true
+        "isHotDeal": true,
+        "categoryType": "oil"
       }
     ]
   }

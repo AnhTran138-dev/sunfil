@@ -11,6 +11,11 @@
   "Manifest": {
     "name": "sunfil test"
   },
+  "Menu": {
+    "title": "Sản phẩm bán chạy",
+    "empty": "Không có sản phẩm nào trong danh mục này",
+    "see_all": "Xem tất cả"
+  },
   "Button": {
     "shopping_cart": "Giỏ hàng",
     "account": "Tài khoản",

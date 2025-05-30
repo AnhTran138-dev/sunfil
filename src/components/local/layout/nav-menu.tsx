@@ -13,13 +13,14 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
-// import CategoriesMenu from "./categories-menu";
 import { useTranslations } from "next-intl";
 import { CategoriesResponse } from "@/features/category/models/categories.reponse";
 import { ProductsResponse } from "@/features/product/models/products.reponse";
 import { IconButton } from "@/components/global/atoms/icon-text-button";
 import Image from "next/image";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { ProductList } from "./product-list";
+import { CategoryList } from "@/components/global/molecules/category-list";
 
 interface FeatureMenu {
   title: string;
@@ -37,9 +38,17 @@ interface NavMenuProps {
   products?: ProductsResponse[];
 }
 
-const NavMenu = ({}: NavMenuProps) => {
+const NavMenu = ({ categories, products }: NavMenuProps) => {
   const isMobile = useIsMobile();
   const t = useTranslations("Button");
+
+  const [selectedCategoryType, setSelectedCategoryType] = React.useState<
+    string | null
+  >(null);
+
+  const handleCategoryHover = (categoryType: string | null) => {
+    setSelectedCategoryType(categoryType);
+  };
 
   const navigationMenu: NavigationMenu[] = [
     { title: t("about_us"), href: "/about-us" },
@@ -53,7 +62,7 @@ const NavMenu = ({}: NavMenuProps) => {
       title: t("support"),
       href: "/support",
       icon: (
-        <Image src="icons/clock.svg" alt="User Circle" width={24} height={24} />
+        <Image src="icons/clock.svg" alt="User Circle" width={20} height={20} />
       ),
     },
     {
@@ -63,8 +72,8 @@ const NavMenu = ({}: NavMenuProps) => {
         <Image
           src="icons/hand-money.svg"
           alt="Hand Money"
-          width={24}
-          height={24}
+          width={20}
+          height={20}
         />
       ),
     },
@@ -72,7 +81,7 @@ const NavMenu = ({}: NavMenuProps) => {
       title: t("fast_delivery"),
       href: "/fast-delivery",
       icon: (
-        <Image src="icons/truck_fill.svg" alt="Truck" width={24} height={24} />
+        <Image src="icons/truck_fill.svg" alt="Truck" width={20} height={20} />
       ),
     },
     {
@@ -82,8 +91,8 @@ const NavMenu = ({}: NavMenuProps) => {
         <Image
           src="icons/refresh-circle.svg"
           alt="Refresh"
-          width={24}
-          height={24}
+          width={20}
+          height={20}
         />
       ),
     },
@@ -93,52 +102,65 @@ const NavMenu = ({}: NavMenuProps) => {
 
   return (
     <div className="container mx-auto flex items-center justify-between flex-wrap ">
-      <NavigationMenu>
-        <NavigationMenuList className="gap-0.5">
-          <NavigationMenuItem>
-            <NavigationMenuTrigger
-              className="gap-2 border border-primary"
-              classNameIcon="text-primary "
-            >
-              <Menu className="size-4 text-primary" />
-              <span className="text-primary">{t("list_products")}</span>
-            </NavigationMenuTrigger>
-            <NavigationMenuContent
-              className="z-20"
-              style={{
-                width: "1200px",
-                boxShadow: "initial",
-              }}
-            >
-              <div>CategoriesMenu</div>
-              {/* <CategoriesMenu products={products} categories={categories} /> */}
-            </NavigationMenuContent>
-          </NavigationMenuItem>
-
-          {navigationMenu.map((item) => (
-            <NavigationMenuItem key={item.title}>
-              <Link href={item.href} passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  {item.title}
-                </NavigationMenuLink>
-              </Link>
+      <div className="flex items-center gap-2">
+        <NavigationMenu>
+          <NavigationMenuList className="gap-0.5">
+            <NavigationMenuItem>
+              <NavigationMenuTrigger
+                className="gap-2 "
+                classNameIcon="text-white "
+                style={{
+                  backgroundColor: "#2563eb",
+                }}
+              >
+                <Menu className="size-4 text-white" />
+                <span className="text-white">{t("list_products")}</span>
+              </NavigationMenuTrigger>
+              <NavigationMenuContent className="z-20">
+                {}
+                <div className="flex w-[1200px] bg-white rounded-lg shadow-lg border border-gray-200">
+                  {categories && (
+                    <CategoryList
+                      categories={categories}
+                      onCategoryHover={handleCategoryHover}
+                    />
+                  )}
+                  {products && (
+                    <ProductList
+                      categories={categories || []}
+                      products={products}
+                      selectedCategoryType={selectedCategoryType}
+                    />
+                  )}
+                </div>
+              </NavigationMenuContent>
             </NavigationMenuItem>
-          ))}
-        </NavigationMenuList>
-      </NavigationMenu>
 
-      <HStack className="gap-0.5 flex-wrap">
+            {navigationMenu.map((item) => (
+              <NavigationMenuItem key={item.title}>
+                <Link href={item.href} passHref>
+                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                    {item.title}
+                  </NavigationMenuLink>
+                </Link>
+              </NavigationMenuItem>
+            ))}
+          </NavigationMenuList>
+        </NavigationMenu>
+      </div>
+
+      <div className="gap-0.5 flex-wrap flex">
         {featureMenu.map((item) => (
           <IconButton
             iconLeft={item.icon}
             key={item.title}
             variant="ghost"
-            className="flex items-center text-foreground font-semibold"
+            className="flex items-center text-foreground font-semibold px-2 gap-1"
           >
-            {item.title}
+            <span className="hover:text-primary">{item.title}</span>
           </IconButton>
         ))}
-      </HStack>
+      </div>
     </div>
   );
 };

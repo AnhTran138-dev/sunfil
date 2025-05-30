@@ -6,4 +6,5 @@ export interface ProductsResponse {
   price: number;
   discountPercentage: number;
   isHotDeal: boolean;
+  categoryType: string;
 }

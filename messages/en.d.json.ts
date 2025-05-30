@@ -14,6 +14,11 @@ declare const messages: {
   "SearchInput": {
     "placeholder": "Search products"
   },
+  "Menu": {
+    "title": "Hot sales products",
+    "empty": "No products found",
+    "see_all": "See All"
+  },
   "Button": {
     "shopping_cart": "Shopping Cart",
     "account": "Account",

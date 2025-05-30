@@ -45,7 +45,7 @@ export function IconButton({
 
   return (
     <Button
-      className={cn("inline-flex items-center gap-2", className)}
+      className={cn("flex items-center gap-2", className)}
       variant={variant}
       size={size}
       data-slot="icon-button"
