@@ -11,10 +11,32 @@
   "Manifest": {
     "name": "sunfil test"
   },
+  "LocaleLayout": {
+    "title": "Sunfil"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "Trở về trang chủ",
+        "description": "Tiếp tục khám phá ứng dụng từ trang chủ.",
+        "link": "/"
+      },
+      "source": {
+        "title": "Mã nguồn",
+        "description": "Xem mã nguồn của ứng dụng này trên GitHub.",
+        "link": "https://github.com/AnhTran138-dev/sunfil"
+      }
+    }
+  },
   "Menu": {
     "title": "Sản phẩm bán chạy",
     "empty": "Không có sản phẩm nào trong danh mục này",
     "see_all": "Xem tất cả"
+  },
+  "NotFoundPage": {
+    "title": "Không tìm thấy trang",
+    "description": "Trang bạn đang tìm kiếm không tồn tại hoặc đã bị di chuyển.",
+    "go_home": "Về trang chủ"
   },
   "Button": {
     "shopping_cart": "Giỏ hàng",

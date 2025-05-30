@@ -12,6 +12,7 @@ import React from "react";
 import MobileMenuSheet from "./mobile-menu-sheet";
 import CardProduct from "@/components/global/organisms/card-product";
 import ProductJson from "@/lib/seeds/product.json";
+import { BadgeIcon } from "@/components/global/molecules/bagde-icon";
 
 const UtilityHeader = () => {
   const [isHovered, setIsHovered] = React.useState(false);
@@ -42,7 +43,17 @@ const UtilityHeader = () => {
           <IconButton
             variant="ghost"
             iconLeft={
-              <Image src="icons/cart.svg" alt="Cart" width={24} height={24} />
+              <BadgeIcon
+                icon={
+                  <Image
+                    src="icons/cart.svg"
+                    alt="Cart"
+                    width={24}
+                    height={24}
+                  />
+                }
+                count={2}
+              />
             }
             className="text-gray-600"
           >
@@ -88,7 +99,17 @@ const UtilityHeader = () => {
           <IconButton
             variant="ghost"
             iconLeft={
-              <Image src="icons/cart.svg" alt="Cart" width={24} height={24} />
+              <BadgeIcon
+                icon={
+                  <Image
+                    src="icons/cart.svg"
+                    alt="Cart"
+                    width={24}
+                    height={24}
+                  />
+                }
+                count={2}
+              />
             }
             className="text-gray-600"
           >

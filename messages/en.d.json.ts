@@ -14,10 +14,32 @@ declare const messages: {
   "SearchInput": {
     "placeholder": "Search products"
   },
+  "LocaleLayout": {
+    "title": "Sunfil "
+  },
   "Menu": {
     "title": "Hot sales products",
     "empty": "No products found",
     "see_all": "See All"
+  },
+  "NotFoundPage": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "go_home": "Go to Home"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "Back to Home",
+        "description": "Continue exploring the app from the homepage.",
+        "href": "/"
+      },
+      "source": {
+        "title": "Source Code",
+        "description": "View the source code of this app on GitHub.",
+        "href": "https://github.com/AnhTran138-dev/sunfil"
+      }
+    }
   },
   "Button": {
     "shopping_cart": "Shopping Cart",
