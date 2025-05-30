@@ -8,6 +8,9 @@
   "SearchInput": {
     "placeholder": "Tìm kiếm sản phẩm"
   },
+  "Manifest": {
+    "name": "sunfil test"
+  },
   "Button": {
     "shopping_cart": "Giỏ hàng",
     "account": "Tài khoản",
