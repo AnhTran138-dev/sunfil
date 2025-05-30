@@ -5,7 +5,7 @@ import { getPathname } from "@/i18n/navigation";
 import { host } from "@/configs/locale";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [...getEntries("/"), ...getEntries("/pathnames")];
+  return [...getEntries("/"), ...getEntries("/(main)")];
 }
 
 type Href = Parameters<typeof getPathname>[0]["href"];
