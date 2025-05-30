@@ -8,10 +8,7 @@ const nextConfig: NextConfig = {
       bodySizeLimit: "100mb",
     },
   },
-  i18n: {
-    locales: ["en", "vi"],
-    defaultLocale: "vi",
-  },
+
   output: "standalone",
   images: {
     remotePatterns: [

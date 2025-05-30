@@ -1,10 +1,11 @@
+import { ReactNode } from "react";
 import "./globals.css";
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+type Props = {
+  children: ReactNode;
+};
+
+export default function RootLayout({ children }: Props) {
   return (
     <html>
       <body>{children}</body>
