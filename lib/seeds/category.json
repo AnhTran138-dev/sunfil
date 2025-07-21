@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "/images/category/category-1.png",
+    "name": "Bộ lọc dầu",
+    "type": "oil"
+  },
+  {
+    "id": 2,
+    "image": "/images/category/category-1.png",
+    "name": "Bộ lọc không khí",
+    "type": "air"
+  },
+  {
+    "id": 3,
+    "image": "/images/category/category-1.png",
+    "name": "Bộ lọc nhiên liệu",
+    "type": "fuel"
+  },
+  {
+    "id": 4,
+    "image": "/images/category/category-1.png",
+    "name": "Bộ lọc Trong Cabin",
+    "type": "cabin"
+  },
+  {
+    "id": 5,
+    "image": "/images/category/category-1.png",
+    "name": "Bộ lọc gió",
+    "type": "airstream"
+  },
+  {
+    "id": 6,
+    "image": "/images/category/category-1.png",
+    "name": "Bộ lọc dầu hộp số",
+    "type": "transmission"
+  }
+]
