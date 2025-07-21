@@ -1,1 +1,130 @@
-{}
+{
+  "HomePage": {
+    "input_code": "Enter code",
+    "newbie": "NEWBIE",
+    "newbie_desc": "get 10% off for the first purchase.",
+    "download_app": "Download the app"
+  },
+  "Manifest": {
+    "name": "sunfil test"
+  },
+  "SearchInput": {
+    "placeholder": "Search products"
+  },
+  "LocaleLayout": {
+    "title": "Sunfil "
+  },
+  "Menu": {
+    "title": "Hot sales products",
+    "empty": "No products found",
+    "subtitle": "Please choose another category",
+    "see_all": "See All"
+  },
+  "NotFoundPage": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "go_home": "Go to Home"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "Back to Home",
+        "description": "Continue exploring the app from the homepage.",
+        "href": "/"
+      },
+      "source": {
+        "title": "Source Code",
+        "description": "View the source code of this app on GitHub.",
+        "href": "https://github.com/AnhTran138-dev/sunfil"
+      }
+    }
+  },
+  "Button": {
+    "category": "Product Category",
+    "shopping_cart": "Shopping Cart",
+    "account": "Account",
+    "list_products": "List Products",
+    "about_us": "About Us",
+    "catalog": "Catalog",
+    "post": "Post",
+    "contact_us": "Contact Us",
+    "support": "Support 24/7",
+    "subTitle_support": "With bill from 1 million",
+    "free_shipping": "Free Shipping",
+    "subTitle_free_shipping": "Dedicated customer service team ready to listen and serve wholeheartedly",
+    "fast_delivery": "Fast delivery 2 hours",
+    "subTitle_fast_delivery": "Within a 10km radius of Ho Chi Minh City",
+    "return_policy": "30 days return",
+    "subTitle_return_policy": "100% refund if there is an error from the manufacturer or shipping unit",
+    "see_now": "See Now",
+    "buy_now": "Buy Now",
+    "description": "Always the leading online shopping "
+  },
+  "Banner": {
+    "new_hot": "New and hot!",
+    "download_app": "Download & get gifts",
+    "earn_points": "Earn points right on the",
+    "sunfil": "SUNFIL1",
+    "app": "app",
+    "points": "points"
+  },
+  "ProductCard": {
+    "buy_now": "Buy Now"
+  },
+  "JumbotronSection": {
+    "title": "View the system of 88 stores nationwide",
+    "see_now": "See Now"
+  },
+  "SortProducts": {
+    "title": "Product List",
+    "sort_by": "Sort by",
+    "relevance": "Relevance",
+    "best_selling": "Best Selling",
+    "newest": "Newest",
+    "featured": "Featured",
+    "high": "High",
+    "low": "Low",
+    "price": "Price"
+  },
+  "FilterProducts": {
+    "filter": "Filter",
+    "category": "Category",
+    "price_range": "Price Range",
+    "brand": "Brand",
+    "manufacture_year": "Manufacture Year",
+    "origin": "Origin"
+  },
+  "Footer": {
+    "company_name": "VIET HUNG AUTO PRODUCTION TRADING JOINT STOCK COMPANY",
+    "tax_code": "Tax code",
+    "address": "Address",
+    "address_detail": "13 Nghia thuc, Ward 05, District 5, Ho Chi Minh City, Viet Nam",
+    "phone": "Phone number",
+    "opening_hours": "Opening hours",
+    "opening_hours_detail": "09:00 - 22:00 from Monday to Friday",
+    "sitemap": "Sitemap",
+    "about_us": "About",
+    "articles": "Article",
+    "cart": "Cart",
+    "contact_us": "Contact",
+    "legal": "Legal",
+    "privacy_policy": "__ Privacy Policy",
+    "cookies_policy": "Cookies Policy",
+    "delivery_policy": "Delivery Policy",
+    "faqs": "FAQs",
+    "download_app": "Download App",
+    "get_on_app_store": "Get it On",
+    "get_on_google_play": "Download from"
+  },
+  "route": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "post": "Post",
+    "catalog": "Catalog",
+    "support": "Support",
+    "shipping": "Shipping",
+    "delivery": "Delivery",
+    "return": "Return"
+  }
+}

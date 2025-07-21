@@ -1,3 +1,4 @@
+import { ProductRequest } from "@/features/product/models/products.request";
 import { create } from "zustand";
 
 interface ParamsStore<T> {
@@ -12,3 +13,5 @@ export const createParamsStore = <T>() =>
     setParams: (params: T) => set({ params }),
     resetParams: () => set({ params: {} as T }),
   }));
+
+export const useProductParamsStore = createParamsStore<ProductRequest>();
